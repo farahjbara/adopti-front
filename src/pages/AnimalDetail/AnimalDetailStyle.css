@@ -1,0 +1,269 @@
+.animal-name {
+  font-family: "Candy Beans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 42px;
+  text-transform: capitalize;
+
+  color: #272626;
+}
+
+.association-name {
+  font-family: "Candy Beans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  text-align: center;
+
+  text-transform: capitalize;
+  color: #e2168c;
+}
+
+.tags-box {
+  border: 1px solid #272626;
+  border-radius: 10px;
+  height: 22px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tags-text {
+  font-family: "Candy Beans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+
+  text-align: center;
+  text-transform: capitalize;
+
+  color: #272626;
+}
+
+.description-text {
+  font-family: "Candy Beans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  /* identical to box height */
+
+  text-transform: capitalize;
+}
+
+.animal-description {
+  font-family: "Candy Beans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: capitalize;
+  text-align: justify;
+  color: #828282;
+}
+
+.adopti-text {
+  font-family: "Candy Beans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  text-transform: capitalize;
+
+  color: #ffffff;
+}
+
+.favorite-text {
+  font-family: "Candy Beans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  /* identical to box height */
+
+  text-transform: capitalize;
+
+  color: #272626;
+}
+.title-text {
+  font-family: "Candy Beans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 42px;
+
+  color: #272626;
+}
+
+.unselected {
+  opacity: 0.75;
+  cursor: pointer;
+}
+.selected {
+  opacity: 1;
+}
+
+.text-over-image {
+  font-family: "Candy Beans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  text-transform: capitalize;
+  width: 491px;
+  color: #272626;
+  margin-bottom: 24px;
+}
+
+.contact-button {
+  width: 225px;
+  height: 47px;
+  border-radius: 10px;
+}
+
+.adopti-dialog {
+  width: 600px;
+  height: 668px;
+  border-radius: 22px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.adopti-dialog-box {
+  background: #fafafa;
+  /* width: 100%; */
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-left: 24px;
+  gap: 0px;
+}
+
+.adopti-dialog-box2 {
+  background: #ffffff;
+  width: 90%;
+  height: 90%;
+  margin: 24px;
+}
+
+.adopti-dialog-title {
+  font-family: "Candy Beans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  /* line-height: 34px; */
+  /* identical to box height */
+  margin-left: 24px;
+  text-transform: capitalize;
+
+  color: #272626;
+}
+
+.adopti-dialog-association {
+  font-family: "Candy Beans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  /* line-height: 23px; */
+  text-transform: capitalize;
+  margin-top: -24px;
+  margin-left: 24px;
+  color: #e2168c;
+}
+
+.dialog-tags-box1 {
+  margin-left: 24px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 10px;
+  gap: 10px;
+  background: #eee1ff;
+  border-radius: 10px;
+  height: 38px;
+}
+
+.tags-text1 {
+  font-family: "Candy Beans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  /* identical to box height */
+
+  text-align: center;
+  text-transform: capitalize;
+
+  color: #773cbe;
+}
+
+.dialog-tags-box2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 10px;
+  gap: 10px;
+  background: rgba(255, 184, 0, 0.15);
+  border-radius: 10px;
+  height: 38px;
+}
+
+.tags-text2 {
+  font-family: "Candy Beans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  text-transform: capitalize;
+
+  color: #ffb800;
+}
+
+.tags-box3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 10px;
+  gap: 10px;
+  background: #e8f4d3;
+  border-radius: 10px;
+  height: 38px;
+}
+
+.tags-text3 {
+  font-family: "Candy Beans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  text-transform: capitalize;
+
+  color: #9dd93a;
+}
+
+.form-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ffb800;
+  border-radius: 10px;
+  width: 99px;
+  height: 28px;
+}

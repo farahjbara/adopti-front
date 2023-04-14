@@ -1,0 +1,74 @@
+@font-face {
+  font-family: 'Candy Beans';
+  src: url('./fonts/candyBeans.otf') format('opentype');
+}
+
+/* .App {
+  text-align: center;
+} */
+html * {
+  font-family: 'Candy Beans', sans-serif;                                        
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+body::-webkit-scrollbar {
+  width: 0em;
+}
+ 
+/* body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(192, 46, 131);
+  outline: 1px solid slategrey;
+} */
+
+/* #parent{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+#child{
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  padding-right: 17px; // Increase/decrease this value for cross-browser compatibility 
+  box-sizing: content-box; // So the width will be 100% + 17px 
+} */

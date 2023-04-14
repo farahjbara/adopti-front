@@ -1,0 +1,150 @@
+.association {
+  font-family: "Candy Beans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 34px;
+  /* identical to box height */
+
+  text-transform: capitalize;
+
+  color: #272626;
+}
+
+.description-association {
+  font-family: "Candy Beans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  text-transform: capitalize;
+
+  color: #272626;
+}
+
+.description-text-association {
+  font-family: "Candy Beans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: justify;
+  text-transform: capitalize;
+
+  color: #828282;
+}
+
+.adopti-text {
+  font-family: "Candy Beans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  text-transform: capitalize;
+
+  color: #ffffff;
+}
+
+.favorite-text {
+  font-family: "Candy Beans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  /* identical to box height */
+
+  text-transform: capitalize;
+
+  color: #272626;
+}
+
+.tags-box1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 10px;
+  gap: 10px;
+  background: #eddeff;
+  border-radius: 10px;
+  height: 42px;
+}
+
+.tags-text1 {
+  font-family: "Candy Beans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  /* identical to box height */
+
+  text-align: center;
+  text-transform: capitalize;
+
+  color: #773cbe;
+}
+
+.tags-box2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 10px;
+  gap: 10px;
+  background: rgba(255, 184, 0, 0.15);
+  border-radius: 10px;
+  height: 42px;
+}
+
+.tags-text2 {
+  font-family: "Candy Beans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  text-transform: capitalize;
+
+  color: #ffb800;
+}
+
+.titre-animaux {
+    font-family: 'Candy Beans';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 31px;
+text-transform: capitalize;
+
+color: #272626;
+}
+
+.text-image {
+    font-family: 'Candy Beans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 65px;
+    line-height: 85px;
+    /* identical to box height */
+    
+    text-transform: capitalize;
+    
+    color: #272626;
+}
+
+.text-image2 {
+    font-family: 'Candy Beans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    
+    color: #272626;
+}
+
+.contact {
+    width: 313px;
+height: 58px;
+background: #E2168C;
+border-radius: 10px;
+}

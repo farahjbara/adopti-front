@@ -1,0 +1,265 @@
+body {
+  font-family: "Candy Beans", sans-serif;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid rgb(250, 250, 250);
+  margin: 0.5rem;
+  height: 366px;
+  width: 273px;
+  border-radius: 27px;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+}
+
+.card-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  background-position: center;
+  background-size: cover;
+}
+
+.image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  background-position: center;
+  background-size: cover;
+}
+
+.icon {
+  position: relative;
+  /* width: 1rem; */
+  object-fit: cover;
+  background-position: center;
+  background-size: cover;
+  /* padding: 0.5rem; */
+  cursor: pointer;
+}
+
+.icon-holder {
+  background-color: white;
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  border-radius: 50%;
+  width: 47.43px;
+  height: 47.43px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .card-content {
+  position: absolute;
+  bottom: 4%;
+  left: 5%;
+  right: 5%;
+  max-width: 80%;
+  height: 80px;
+  border-radius: 22px;
+  background-color: white;
+  padding: 16px;
+} */
+
+.card-content {
+  box-sizing: border-box;
+  position: absolute;
+  height: 100px;
+  width: 254px;
+  left: 9px;
+  top: 253px;
+
+  /* left: 3.28%;
+  right: 4.01%;
+  top: 69.13%;
+  bottom: 3.55%; */
+  background: #ffffff;
+  border: 1px solid #dedede;
+  border-radius: 22px;
+  overflow: hidden;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start; */
+}
+
+.card-title {
+  /* font-size: 16px;
+  font-weight: bold;
+  margin: 0; */
+  position: relative;
+  left: 7.66%;
+
+  font-family: "Candy Beans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  text-transform: capitalize;
+
+  color: #272626;
+}
+
+.card-description {
+  /* font-size: 14px;
+  color: #828282;
+  margin: 0; */
+  position: relative;
+  left: 7.66%;
+  top: -15%;
+
+  font-family: "Candy Beans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: capitalize;
+
+  color: #828282;
+}
+
+.tags-animals {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: relative;
+  /* height: 27px; */
+  bottom: 20%;
+}
+.tags {
+  /* display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 5px 10px;
+  gap: 10px;
+  justify-content: space-evenly;
+  position: relative;
+  height: 27px;
+  overflow: hidden; */
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: relative;
+  bottom: -10%;
+  /* height: 27px; */
+}
+
+.tag1 {
+  /* margin: 6px;
+  background-color: rgba(226, 22, 140, 0.15);
+  border-radius: 22px;
+  padding: 4px 8px; */
+  /* left: 7.66%;
+  right: 69.02%;
+  top: 85.7%;
+  bottom: 6.83%; */
+  overflow: hidden;
+  min-width: 60px;
+  background: rgba(226, 22, 140, 0.15);
+  border-radius: 10px;
+  height: 27px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tag-text1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height */
+
+  text-align: center;
+  text-transform: capitalize;
+  color: #e2168c;
+}
+
+.tag2 {
+  /* margin: 6px; */
+  background-color: rgba(157, 217, 58, 0.15);
+  border-radius: 22px;
+  min-width: 60px;
+  overflow: hidden;
+  height: 27px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* padding: 4px 8px; */
+}
+.tag1-association {
+  background: rgba(226, 22, 140, 0.15);
+  border-radius: 22px;
+  min-width: 100px;
+  overflow: hidden;
+  height: 27px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tag3-association {
+  background-color: rgba(255, 184, 0, 0.15);
+  border-radius: 22px;
+  overflow: hidden;
+  min-width: 100px;
+  height: 27px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tag-text2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height */
+
+  text-align: center;
+  text-transform: capitalize;
+  color: #9dd93a;
+}
+
+.tag3 {
+  /* margin: 6px; */
+  background-color: rgba(255, 184, 0, 0.15);
+  border-radius: 22px;
+  overflow: hidden;
+  min-width: 60px;
+  height: 27px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* padding: 4px 8px; */
+}
+
+.tag-text3 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height */
+
+  text-align: center;
+  text-transform: capitalize;
+  color: #ffb800;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  .card {
+    margin: 0px;
+  }
+}

@@ -1,0 +1,35 @@
+.contact-box {
+    margin: 4rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    gap: 8;
+}
+
+.contact-img {
+    position: absolute;
+    top: 25%;
+    left: 27%;
+    max-width: 288px;
+}
+
+.contact-title {
+    font-weight: 400;
+    font-size: 40px;
+    font-style: normal;
+    color: #272626;
+}
+
+.contact-text {
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
+    text-align: justify;
+    color: #828282;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    min-width: 478px;
+}
