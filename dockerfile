@@ -1,19 +1,27 @@
 FROM node:18-alpine
 
 # Create app directory
-WORKDIR /usr/src/app
+
+WORKDIR /src
 
 # Copy package files
-COPY package*.json ./
+
+COPY package.json yarn.lock ./
 
 # Install dependencies
-RUN npm install
+RUN yarn install
 
 # Copy app files
 COPY . .
 
+# build app
+
+RUN yarn build
+
 # Expose the port
+
 EXPOSE 3000
 
 # Start the app
-CMD ["npm", "start"]
+CMD ["yarn", "start"]
+
